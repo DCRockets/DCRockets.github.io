@@ -37,6 +37,9 @@ footer {
     padding: 1em 0;
     background-color: #4682b4;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .project {
@@ -65,4 +68,20 @@ footer {
 
 .project p {
     margin: 10px 0 0;
+}
+
+.project img {
+    display: block;
+    margin: 0 auto;
+    border: none;  /* Remove any borders */
+}
+
+.project div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project img:first-of-type {
+    margin-bottom: 20px;
 }
