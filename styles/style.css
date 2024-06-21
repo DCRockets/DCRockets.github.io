@@ -37,61 +37,32 @@ footer {
     padding: 1em 0;
     background-color: #4682b4;
     color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.profile-picture {
-    max-width: 200px;
-    height: auto;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
 }
 
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e0f7ff;
+    border-radius: 10px;
 }
 
-.project img {
+.project h3 {
+    margin-top: 0;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-images img {
     max-width: 100%;
     height: auto;
     border: 2px solid #4682b4;
     border-radius: 10px;
-    display: block;
-    margin: 10px 0;
 }
 
-#contactForm {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#contactForm label,
-#contactForm input,
-#contactForm textarea {
-    margin-bottom: 10px;
-}
-
-#contactForm input,
-#contactForm textarea {
-    padding: 10px;
-    border: 1px solid #4682b4;
-    border-radius: 5px;
-}
-
-#contactForm button {
-    background-color: #4682b4;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#contactForm button:hover {
-    background-color: #5a9bd4;
+.project p {
+    margin: 10px 0 0;
 }
