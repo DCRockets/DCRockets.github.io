@@ -7,8 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    align-items: center; /* Center-align everything */
-    text-align: center; /* Center-align text */
 }
 
 header {
@@ -16,17 +14,15 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
-    width: 100%;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center; /* Center-align navigation */
 }
 
 nav ul li {
+    display: inline;
     margin: 0 10px;
 }
 
@@ -38,10 +34,6 @@ nav ul li a {
 main {
     flex: 1;
     padding: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align main content */
 }
 
 footer {
@@ -49,7 +41,6 @@ footer {
     padding: 1em 0;
     background-color: #4682b4;
     color: white;
-    width: 100%;
 }
 
 .project {
@@ -57,8 +48,6 @@ footer {
     padding: 20px;
     background-color: #e0f7ff;
     border-radius: 10px;
-    width: 80%; /* Center-align projects */
-    text-align: center; /* Center-align project text */
 }
 
 .project h3 {
@@ -68,7 +57,6 @@ footer {
 .project-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center-align project images */
     gap: 10px;
 }
 
@@ -96,12 +84,5 @@ footer {
 }
 
 .project img:first-of-type {
-    margin-bottom: 20px;
-}
-
-/* Style for the home page image */
-.cover-image {
-    max-width: 300px; /* Adjust the size of the cover image */
-    border-radius: 10px;
     margin-bottom: 20px;
 }
