@@ -75,11 +75,10 @@ footer {
 }
 
 .project-images img {
-    max-width: 100%;
+    max-width: 200px; /* Set a maximum width for each image */
     height: auto;
     border: 2px solid #4682b4;
     border-radius: 10px;
-    flex: 1 1 200px; /* Make images flexible and set a minimum width */
 }
 
 .project p {
@@ -104,7 +103,7 @@ footer {
 
 /* Style for the home page image */
 .cover-image {
-    max-width: 400px; /* Adjust the size of the cover image */
+    max-width: 300px; /* Adjust the size of the cover image */
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -129,7 +128,7 @@ footer {
     background-image: url('../images/instagram.png');
 }
 
-.social-media a.youtube {
+social-media a.youtube {
     background-image: url('../images/youtube.png');
 }
 
