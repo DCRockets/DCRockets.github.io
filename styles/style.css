@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     align-items: center; /* Center-align everything */
+    text-align: center; /* Center-align text */
 }
 
 header {
@@ -57,11 +58,11 @@ footer {
     background-color: #e0f7ff;
     border-radius: 10px;
     width: 80%; /* Center-align projects */
+    text-align: center; /* Center-align project text */
 }
 
 .project h3 {
     margin-top: 0;
-    text-align: center;
 }
 
 .project-images {
@@ -80,7 +81,6 @@ footer {
 
 .project p {
     margin: 10px 0 0;
-    text-align: center;
 }
 
 .project img {
