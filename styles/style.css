@@ -104,7 +104,7 @@ footer {
 
 /* Style for the home page image */
 .cover-image {
-    max-width: 175px; /* Adjust the size of the cover image */
+    max-width: 400px; /* Adjust the size of the cover image */
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -126,15 +126,15 @@ footer {
 }
 
 .social-media a.instagram {
-    background-image: url('images/instagram.png');
+    background-image: url('../images/instagram.png');
 }
 
 .social-media a.youtube {
-    background-image: url('images/youtube.png');
+    background-image: url('../images/youtube.png');
 }
 
 .social-media a.linkedin {
-    background-image: url('images/linkedin.png');
+    background-image: url('../images/linkedin.png');
 }
 
 /* Responsive design */
