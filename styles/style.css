@@ -39,6 +39,7 @@ main {
     flex: 1;
     padding: 20px;
     width: 100%;
+    max-width: 1200px; /* Limit the maximum width for better readability */
     display: flex;
     flex-direction: column;
     align-items: center; /* Center-align main content */
@@ -57,7 +58,8 @@ footer {
     padding: 20px;
     background-color: #e0f7ff;
     border-radius: 10px;
-    width: 80%; /* Center-align projects */
+    width: 100%;
+    max-width: 800px; /* Limit the maximum width of projects */
     text-align: center; /* Center-align project text */
 }
 
@@ -105,4 +107,39 @@ footer {
     max-width: 175px; /* Adjust the size of the cover image */
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+/* Social media buttons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-media a.instagram {
+    background-image: url('images/instagram.png');
+}
+
+.social-media a.youtube {
+    background-image: url('images/youtube.png');
+}
+
+.social-media a.linkedin {
+    background-image: url('images/linkedin.png');
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .project-images {
+        flex-direction: column; /* Stack images vertically on small screens */
+    }
 }
