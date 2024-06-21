@@ -102,7 +102,7 @@ footer {
 
 /* Style for the home page image */
 .cover-image {
-    max-width: 300px; /* Adjust the size of the cover image */
+    max-width: 175px; /* Adjust the size of the cover image */
     border-radius: 10px;
     margin-bottom: 20px;
 }
